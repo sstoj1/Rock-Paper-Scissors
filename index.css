@@ -3,6 +3,7 @@ html, body {
     text-align: center;
     color: white;
     background-color: black;
+    margin: 50px;
 }
 
 h1 {
@@ -10,20 +11,22 @@ h1 {
 }
 p {
     font-size: 30px;
+    padding-bottom: 50px;
 }
 
 .buttons {
     display: flex;
     gap: 10px;
     align-items: center;
+    justify-content: center;
     
 }
 button {
     border: 2px solid white;
     background-color: black;
     color: white;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
     border-radius: 5px;
     
 }
