@@ -5,8 +5,7 @@ let computerCounter = 0;
 let playerCounter = 0;
 
 function getComputerChoice() {
-    let computerChoice = Math.floor(Math.random() * 3) + 1;
-    return computerChoice;
+    return Math.floor(Math.random() * 3) + 1;
 }
 console.log(getComputerChoice());
 
