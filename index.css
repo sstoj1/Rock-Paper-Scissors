@@ -21,7 +21,7 @@ p {
     justify-content: center;
     
 }
-button {
+input {
     border: 2px solid white;
     background-color: black;
     color: white;
@@ -31,7 +31,7 @@ button {
     
 }
 
-button:hover {
+input:hover {
     background-color: darkslategrey;
     cursor: pointer;
 }
