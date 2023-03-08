@@ -7,8 +7,6 @@ let playerCounter = 0;
 function getComputerChoice() {
     return Math.floor(Math.random() * 3) + 1;
 }
-console.log(getComputerChoice());
-
 
 // 1 = Rock, 2 = Paper, 3 = Scissors
 function getRoundWinner(playerChoice) {
